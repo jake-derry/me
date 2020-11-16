@@ -1,4 +1,4 @@
-import Layout from '../../components/layout'
+import Layout from '../../components/Layout'
 import Page from '../../components/Page'
 import Title from '../../components/Title'
 import { getAllProjectIds, getProjectData } from '../../lib/projects'
