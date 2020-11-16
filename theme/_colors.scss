@@ -1,0 +1,33 @@
+// theme/_colors.scss
+
+$primary: #05386b;
+$primary-light: #379683;
+$primary-dark: #4e845f;
+
+$secondary: #ffffff;
+$secondary-light: #546172;
+$secondary-dark: #032344;
+
+$on-primary: #000;
+$on-primary-light: #A1A1A1;
+$on-secondary: #05386b;
+
+$highlight: #5cdb95;
+$highlight-light: #8ee4af;
+
+:export {
+  primary: $primary;
+  primary_light: $primary-light;
+  primary_dark: $primary-dark;
+
+  secondary: $secondary;
+  secondary_light: $secondary-light;
+  secondary_dark: $secondary-dark;
+
+  on-primary: $on-primary;
+  on_primary_light: $on-primary-light;
+  on_secondary: $on-secondary;
+
+  highlight: $highlight;
+  highlight_light: $highlight-light;
+}

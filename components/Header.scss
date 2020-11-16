@@ -1,0 +1,29 @@
+// components/Header.scss
+
+@import "../theme/theme";
+
+.Header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  height: 50px;
+  width: 100%;
+
+  padding: 0 20px;
+
+  font-family: $logo-font;
+  font-size: 15px;
+  font-weight: bold;
+  color: $highlight;
+
+  background: $on-secondary;
+
+  cursor: pointer;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}

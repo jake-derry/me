@@ -1,0 +1,17 @@
+@import "../theme/theme";
+
+.Card {
+  width: 26rem;
+  color: $secondary-dark;
+}
+
+.CardTitle {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.Project {
+  padding-bottom: 30px;
+  padding-right: 30px;
+  float: left;
+}

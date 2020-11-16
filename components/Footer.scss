@@ -1,0 +1,22 @@
+@import "../theme/theme";
+
+
+.Footer {
+  background-color: $secondary-dark;
+  color: $on-primary-light;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.CodeHighlight {
+  color: $highlight-light
+}
+
+.Link {
+  color: $highlight-light
+}
+
+.Link:visited {
+  color: $primary-dark
+}

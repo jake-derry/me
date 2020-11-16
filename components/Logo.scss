@@ -1,0 +1,10 @@
+@import "../theme/theme";
+
+.Logo {
+  text-align: center;
+  font-size: 30px;
+
+  .dark {
+    color: $primary-dark
+  }
+}

@@ -1,0 +1,13 @@
+@import "../theme/theme";
+
+.Button {
+  padding: 10px 18px;
+  font-size: 20px;
+  font-weight: bold;
+  border-color: $highlight;
+  border-radius: 2px;
+  border-width: 5px;
+  color: $secondary;
+  background-color: $primary;
+  font-family: $logo-font;
+}
