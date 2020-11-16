@@ -44,7 +44,7 @@ const About = props =>
             a company that provides businesses with the ability to connect to their
             customers through messaging, voice, and emergency services. My work
             is in deliverability insights (helping our customers determine how
-            well their SMS and MMs messages is getting out).
+            well their SMS and MMS messages is getting out).
           </p>
           <p>
             I also <span className="highlight">always</span> have projects that
