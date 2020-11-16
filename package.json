@@ -1,7 +1,7 @@
 {
-  "name": "whatabyte",
+  "name": "me",
   "version": "1.0.0",
-  "description": "",
+  "description": "Personal website for Jake Derry",
   "main": "index.js",
   "scripts": {
     "dev": "next",

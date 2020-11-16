@@ -11,7 +11,7 @@ export default function Projects ({ allProjectsData }) {
     <Page>
       <Title>Projects</Title>
       {allProjectsData.map(({ id, preview, date, title }) => (
-        <Project title={title} text={preview}></Project>
+        <Project id={id} title={title} text={preview}></Project>
       ))}
     </Page>
   </Layout>;

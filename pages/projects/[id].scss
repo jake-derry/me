@@ -1,0 +1,26 @@
+@import "../../theme/theme";
+
+
+blockquote {
+  background: $highlight;
+  color: $primary;
+  font-weight: bold;
+  border-left: 10px solid $primary-dark;
+  margin: 40px;
+  padding: 0.5em 10px;
+  padding-bottom: 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+blockquote:before {
+  color: $primary-dark;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
+}

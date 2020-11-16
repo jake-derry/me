@@ -5,7 +5,7 @@ const Footer = props => (
   <div className="Footer">
     Written in <code className="CodeHighlight">next.js</code>. 
     Check out the <span className="Link">
-        <Link href="http://www.github.com">source code</Link>
+        <Link href="http://www.github.com/jake-derry/me">source code</Link>
       </span>.
   </div>
 );
