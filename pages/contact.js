@@ -2,12 +2,12 @@
 
 import Layout from "../components/Layout";
 import Page from "../components/Page";
-import Title from "../components/Title";
+import BigText from "../components/BigText";
 
 const NearMeView = props => 
     <Layout>
       <Page>
-        <Title>Contact me</Title>
+        <BigText>Contact me</BigText>
         <p>
           Feel free to connect with me through <a 
             href="https://www.linkedin.com/in/jk-derry/">LinkedIn</a>, 

@@ -2,14 +2,14 @@
 
 import Layout from "../components/Layout";
 import Page from "../components/Page";
-import Title from "../components/Title";
+import BigText from "../components/BigText";
 import Post from "../components/Post";
 import { getSortedPostsData } from '../lib/posts'
 
 export default function Projects ({ allPostsData }) {
   return <Layout>
     <Page>
-      <Title>Posts</Title>
+      <BigText>Posts</BigText>
       {allPostsData.map(({ id, preview, date, title }) => (
         <Post id={id} title={title} date={date} text={preview}></Post>
       ))}
